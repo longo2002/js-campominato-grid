@@ -5,7 +5,7 @@ bottone.addEventListener("click",
     function myFunction() {
         btnEl.classList.add("nodisplay")
 
-        
+
         let gridSide = 10
         let playArea = gridSide * gridSide
         const gridEl = document.querySelector('.griglia')
@@ -24,9 +24,22 @@ bottone.addEventListener("click",
             const cell = cellEl[i]
 
             cell.addEventListener('click', function () {
-                cell.classList.add("indicatore")
+                cell.classList.toggle("indicatore")
                 console.log(i + 1)
             })
         }
     }
 )
+
+let refresh = document.getElementById("refresh-btn")
+refresh.addEventListener("click",
+    function refreshFunction() {
+        window.location.reload(true)
+    }
+)
+
+
+
+
+
+

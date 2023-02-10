@@ -5,31 +5,39 @@
     font-family: sans-serif;
 }
 
-#bottone{
+#bottone {
     color: white;
     font-size: 26px;
     padding: 5px;
     margin-top: 15px;
-    background-color: limegreen; 
+    background-color: limegreen;
+    border: 0px;
     border-radius: 5px;
 }
 
-.nodisplay{
+#refresh-btn {
+    color: white;
+    font-size: 26px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: rgb(200, 50, 205);
+    border: 0px;
+    border-radius: 5px;
+}
+
+.nodisplay {
     display: none;
 }
 
-.indicatore{
+.indicatore {
     background-color: green;
-}
-
-.traccia{
-    background-color: darkgreen;
+    color: white;
 }
 
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 15px;
 }
 
 .griglia {
